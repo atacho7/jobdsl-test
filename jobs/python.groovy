@@ -3,7 +3,7 @@ repo = "https://github.com/atacho7/test-jenkins1.git"
 repo_name = "repo"
 
 
-pipilineJob(project_name) {
+pipelineJob(project_name) {
 	definition {
 	   triggers{
 	      scm('H/1 * * * *')
