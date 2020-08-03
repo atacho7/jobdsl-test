@@ -1,6 +1,6 @@
 multibranchPipelineJob('python-deploy') {
     triggers {
-        periodic(1)
+        periodic(5)
     }
     branchSources {
         git {
